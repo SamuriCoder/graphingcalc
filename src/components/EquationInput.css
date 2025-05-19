@@ -1,0 +1,123 @@
+.equation-input {
+  padding: 1rem;
+  background: #f5f5f5;
+  margin-bottom: 1rem;
+  box-shadow: none;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  background: none;
+}
+
+.equation-type {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+}
+
+.equation-expression {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.equation-color {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.equation-width {
+  width: 60px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-equation {
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-equation:hover {
+  background: #0056b3;
+}
+
+.equation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.equation-row {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 0.7rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.25rem;
+  box-shadow: none;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+}
+
+.equation-color-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  border: 2px solid #eee;
+  display: inline-block;
+}
+
+.equation-expression-label {
+  flex: 1;
+  font-family: monospace;
+  font-size: 1rem;
+  color: #222;
+  text-align: left;
+  background: transparent;
+}
+
+.remove-equation {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.remove-equation:hover {
+  color: #d62728;
+}
+
+.intersection-toggle {
+  margin-top: 1rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #333;
+  padding-left: 0.2rem;
+} 
